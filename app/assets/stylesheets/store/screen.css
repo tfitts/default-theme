@@ -1,0 +1,173 @@
+/* 
+    Document   : screen
+    Created on : May 16, 2012, 1:22:12 PM
+    Author     : Tyler
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+body {
+  background-image: url("http://static1.ziggos.com/assets/store/whitebg.jpg");
+  background-position: center top;
+  background-repeat: repeat-y;
+  min-width: 960px;
+}
+
+nav #main-nav-bar {
+  background: -moz-linear-gradient(center top , #0069FF, #079AEE) repeat-x scroll 0 0 transparent;
+  height: 43px;
+  list-style: none outside none;
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  width: 960px;
+}
+
+#headleft {
+  background: url("http://static1.ziggos.com/assets/store/headleft.png") no-repeat scroll left top transparent;
+  border: 0 solid #FF3399;
+  float: left;
+  height: 52px;
+  margin: 0 0 0 -16px;
+  padding: 0;
+  position: relative;
+  width: 16px;
+  z-index: 6;
+}
+
+#headright {
+  background: url("http://static1.ziggos.com/assets/store/headright.png") no-repeat scroll left top transparent;
+  border: 0 solid #FF3399;
+  float: right;
+  height: 65px;
+  margin: -44px -16px -14px 0;
+  padding: 0;
+  position: relative;
+  width: 16px;
+}
+
+#main-nav-bar .main-level {
+  float: left;
+  margin-right: 5px;
+  position: relative;
+}
+
+nav #main-nav-bar p, #main-nav-bar ul, #main-nav-bar li, #main-nav-bar h2, #main-nav-bar h3, nav #main-nav-bar li a {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+}
+
+#main-nav-bar .trigger {
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  height: 37px;
+  line-height: 37px;
+  margin-top: -3px;
+  padding: 6px 5px;
+  text-align: center;
+  text-shadow: 0 0 5px #000000;
+  width: 116px;
+}
+
+#main-nav-bar .trigger.selected {
+    background: url("/pimages/bg-main-nav-hover.gif") repeat-x scroll left top #FCFBFA;
+    border-color: #3585D2;
+    border-radius: 3px 3px 0 0;
+    border-style: solid solid none;
+    border-width: 3px 3px medium;
+    box-shadow: 0 0 5px #000000;
+    color: #000000;
+    padding: 3px 2px;
+    text-decoration: none !important;
+    text-shadow: none;
+}
+
+#footer-nav-bar {
+  background: url("http://static1.ziggos.com/assets/store/footback.png") repeat-x scroll 0 0 transparent;
+  color: #FFFFFF;
+  height: 54px;
+  line-height: 17px;
+  padding: 14px 0;
+  text-align: center;
+  width: 960px;
+}
+
+#footleft {
+  background: url("http://static1.ziggos.com/assets/store/footleft.png") no-repeat scroll left top transparent;
+  border: 0 solid #FF9933;
+  float: left;
+  height: 54px;
+  margin-left: -15px;
+  position: relative;
+  width: 15px;
+}
+
+#footright {
+  background: url("http://static1.ziggos.com/assets/store/footright.png") no-repeat scroll right top transparent;
+  float: right;
+  height: 54px;
+  margin-right: -14px;
+  position: relative;
+  width: 14px;
+}
+
+#footer-nav-bar ul {
+  display: inline-block;
+  margin: 11px;
+}
+
+#footer-nav-bar ul li, #footer-nav-bar ul li a {
+  color: #FFFFFF;
+  display: inline;
+}
+
+nav#taxonomies h6.taxonomy-root {
+  background: url("http://static1.ziggos.com/assets/store/insideHeader.png") no-repeat scroll left top transparent;
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  font-size: 17px;
+  font-weight: bold;
+  height: 33px;
+  margin-left: -15px;
+  padding: 5px 0;
+  text-align: center;
+  width: 245px;
+  border-bottom: none;
+}
+
+nav#taxonomies ul.taxons-list  {
+    list-style: none;
+    
+}
+
+.container nav.sixteen.columns {
+    width: 960px;
+}
+
+#search-ribbon {
+  background: url("http://static1.ziggos.com/assets/store/searchbg.gif") no-repeat scroll right top transparent;
+  border: 0 solid #FF0000;
+  color: #FFFFFF;
+  font-size: large;
+  font-weight: bold;
+  height: 52px;
+  margin-right: -29px;
+  padding-right: 15px;
+  padding-top: 5px;
+  position: relative;
+  width: 386px;
+  z-index: 7;
+
+  
+}
